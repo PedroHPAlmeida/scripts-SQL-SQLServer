@@ -16,5 +16,4 @@ alter table Registro_Presenca
 	add constraint fk_SituacaoRP foreign key (id_situacao) references Situacao (id_situacao);
 
 /*alter table Alunos
-
 	drop fk_Turmas;*/ --Excluir constraint
